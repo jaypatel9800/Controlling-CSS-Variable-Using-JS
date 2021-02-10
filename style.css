@@ -1,0 +1,30 @@
+:root {
+    --base-color: #762d2d;
+    --spacing: 20px;
+    --blur: 5px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base-color);
+    filter: blur(var(--blur));
+}
+.text {
+    color: var(--base-color);
+    font-style: italic;
+}
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.control {
+    margin-bottom: 50px;
+}
+ input {
+     width: 200px;
+ }
